@@ -1,0 +1,27 @@
+
+:root {
+    --principal: #222;
+    --secundario: #555;
+    --fondo: #eeeeee;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+h1 {
+    color: var(--principal);
+}
+
+h2 {
+    color: var(--secundario);
+}
+
+p {
+    color: var(--principal);
+}
+
+button {
+    background-color: var(--principal);
+    color: white;
+}

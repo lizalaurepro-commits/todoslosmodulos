@@ -1,0 +1,19 @@
+
+.contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Para celulares */
+@media (max-width: 600px) {
+    .contenedor {
+        flex-direction: column;
+    }
+}
